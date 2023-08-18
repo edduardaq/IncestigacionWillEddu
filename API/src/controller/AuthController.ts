@@ -10,7 +10,7 @@ class AuthController {
     if (!(correo || contrasena)) {
       return resp
         .status(400)
-        .json({ mensaje: "Usuario o contraseña incorrecta." });
+        .json({ mensaje: "Usuario o contraseña incorrectassssss." });
     }
 
     const repoUsuario = AppDataSource.getRepository(Usuarios);
