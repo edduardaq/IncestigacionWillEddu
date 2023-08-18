@@ -49,12 +49,12 @@ export class ProductosComponent implements OnDestroy {
 
     //AQUI  V
 
-    const eliminadosSub = this.srvProductos.productosEliminados$.subscribe(numero => {
-      this.mensajeria.success(`Número total de productos eliminados: ${numero}`);
-    });
+    // const eliminadosSub = this.srvProductos.productosEliminados$.subscribe(numero => {
+    //   this.mensajeria.success(`Número total de productos eliminados: ${numero}`);
+    // });
   
-    // Añadir la suscripción a la lista de suscripciones
-    this.subscriptions.push(eliminadosSub)
+    // // Añadir la suscripción a la lista de suscripciones
+    // this.subscriptions.push(eliminadosSub)
     ;
   }
 
